@@ -1,16 +1,84 @@
-# React + Vite
+# 🎟️ Lottery Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive Lottery Game built using **React.js**. Generate random lottery tickets, check the result, and try your luck!
 
-Currently, two official plugins are available:
+## 📸 Screenshot
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![Lottery Game Screenshot](screenshots/lottery-game-screenshot.png)
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🎲 Generates a random ticket with three numbers.
+- 🔄 Buy a new ticket with one click.
+- 🏆 Automatically checks the winning condition.
+- 🎉 Displays a winning message when the sum of the ticket numbers equals 15.
+- 🍀 Shows an encouraging message when the ticket does not win.
+- 🎨 Attractive dark-themed user interface.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- JavaScript (ES6)
+- HTML5
+- CSS3
+- Vite
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Install [Node.js](https://nodejs.org/) before running the project.
+
+### Installation
+
+**1. Clone the repository**
+
+```bash
+git clone https://github.com/devbyMadhu99/Lottery-Game.git
+```
+
+**2. Navigate to the project folder**
+
+```bash
+cd Lottery-Game
+```
+
+**3. Install dependencies**
+
+```bash
+npm install
+```
+
+**4. Start the development server**
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in your terminal.
+
+## 🎮 How to Play
+
+1. View the three randomly generated ticket numbers.
+2. The game checks whether their sum equals 15.
+3. If the sum is 15, you win!
+4. Click **Buy New Ticket** to generate another ticket.
+
+## 📚 What I Learned
+
+- React components and props
+- State management using `useState`
+- Random number generation in JavaScript
+- Array methods such as `reduce()`
+- Conditional rendering
+- Styling React components using CSS
+
+## 👩‍💻 Author
+
+**Madhu Yadav**
+
+- GitHub: [@devbyMadhu99](https://github.com/devbyMadhu99)
+
+---
+
+⭐ If you like this project, consider giving it a star!
